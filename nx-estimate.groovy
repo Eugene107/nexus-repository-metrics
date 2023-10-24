@@ -111,7 +111,7 @@ try {
         }
     }
 
-    File file = new File("/tmp/nexus-estimate.log")
+    File file = new File("/tmp/nx-estimate-metrics.log")
     file.write(metrics)
     log.info("## Estimated size and count: ##\n{}", JsonOutput.prettyPrint(JsonOutput.toJson(result)));
 }
