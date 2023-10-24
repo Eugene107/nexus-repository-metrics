@@ -1,4 +1,4 @@
-# nexus
+# nexus-repository-metrics
 
 Investigating Blob Store and Repository Size and Space Usage
 - Added export metrics in Prometheus text format
