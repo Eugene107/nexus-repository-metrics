@@ -17,3 +17,8 @@ Go to *Nexus > Administration > System > Tasks > Create task > "Admin - Execute 
   - Language: *groovy*
   - Script source: paste the *nx-estimate.groovy* script
   - Set task frequency or cron expression
+
+### Expose metrics from a file
+  - Copy the *nx-estimate-nginx.conf* file to */etc/nginx/conf.d/* directory
+  - Configure the server section in *nginx.conf* for metric export.
+  - Update the nginx configuration by running *nginx -s reload*
